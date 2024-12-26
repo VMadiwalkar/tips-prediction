@@ -18,7 +18,4 @@ jobs:
       - name: sample
         run: echo "Hello, world!"
 
-      - name: Intentionally fail the workflow
-        uses: jwalton/gh-fail@v1
-        with:
-        error-message: "This action will fail the workflow intentionally."
+    
