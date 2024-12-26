@@ -16,6 +16,8 @@ jobs:
 
       # Set up Node.js (or other environment)
       - name: sample
-        run: echo "Hello, world!"
+        run: |
+          echo "Hello, world!"
+          sleep 5
 
     
